@@ -5,6 +5,8 @@ Correcteur orthographique basé sur [celui de Peter Norvig](http://norvig.com/sp
 Présentation
 ------------
 
+Coming soon
+
 Données utilisées
 -----------------
 
