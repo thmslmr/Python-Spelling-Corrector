@@ -16,7 +16,9 @@ Résultats
 ---------
 
     c = Corrector()
+
     c.correct('orthografe')
-    > orthographe
+    >> orthographe
+
     c.correct('bnojou')
-    > bonjour
+    >> bonjour
