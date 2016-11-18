@@ -1,11 +1,12 @@
 import re
 from collections import Counter
 
-class Correcteur :
+class Corrector :
 	WORDS = None
 
 	def __init__(self) :
-		self.WORDS = Counter(self.wordsFromTxt(open('file.txt', 'r').read()))
+		text = open('candide.txt').read() + open('ddbl.txt').read()
+		self.WORDS = Counter(self.wordsFromTxt( text ))
 		return
 	def wordsFromTxt(self, txt) :
 		return re.findall( r'\w+', txt.lower() )
