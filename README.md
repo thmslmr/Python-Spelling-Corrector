@@ -7,7 +7,7 @@ Présentation
 
 Coming soon
 
-Etapes
+Étapes
 ------
 
 Coming soon
