@@ -8,8 +8,8 @@ Présentation
 Données utilisées
 -----------------
 
-    * Dictionnaire du bon language - N-J. Carpentier
-    * Candide - Voltaire
+* Dictionnaire du bon language - N-J. Carpentier
+* Candide - Voltaire
 
 Étapes
 ------
