@@ -19,11 +19,11 @@ Coming soon
 Résultats
 ---------
 ```python
-    c = Corrector()
+c = Corrector()
 
-    c.correct('orthografe')
-    >> orthographe
+c.correct('orthografe')
+>> orthographe
 
-    c.correct('bnojou')
-    >> bonjour
+c.correct('bnojou')
+>> bonjour
 ```
