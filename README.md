@@ -5,7 +5,11 @@ Correcteur orthographique basé sur [celui de Peter Norvig](http://norvig.com/sp
 Présentation
 ------------
 
-Coming soon
+Données utilisées
+-----------------
+
+    * Dictionnaire du bon language - N-J. Carpentier
+    * Candide - Voltaire
 
 Étapes
 ------
@@ -14,7 +18,7 @@ Coming soon
 
 Résultats
 ---------
-
+```python
     c = Corrector()
 
     c.correct('orthografe')
@@ -22,3 +26,4 @@ Résultats
 
     c.correct('bnojou')
     >> bonjour
+```
