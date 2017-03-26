@@ -5,7 +5,7 @@ class Corrector :
 	WORDS = None
 
 	def __init__(self) :
-		text = open('candide.txt').read() + open('ddbl.txt').read()
+		text = open('txt/candide.txt').read() + open('txt/ddbl.txt').read()
 		self.WORDS = Counter(self.wordsFromTxt( text ))
 		return
 	def wordsFromTxt(self, txt) :
