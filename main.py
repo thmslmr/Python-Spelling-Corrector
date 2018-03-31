@@ -11,8 +11,8 @@ class Corrector:
                  sources=None,
                  letters=None):
         """ Init corrector """
-        (self.sources) = (sources) or self.fetch_settings(lang, 'sources')
-        (self.letters) = (letters) or self.fetch_settings(lang, 'letters')
+        (self.sources,) = (sources) or self.fetch_settings(lang, 'sources')
+        (self.letters,) = (letters) or self.fetch_settings(lang, 'letters')
         self.words = self.get_words()
 
     def fetch_settings(self, lang, keys):
