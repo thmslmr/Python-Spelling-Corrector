@@ -1,16 +1,16 @@
 # Spelling Corrector
 
-**Correcteur orthographique utilisant la fréquence d'utilisation des mots dans un dataset de livres.**
+**Spelling Corrector using the frequence of use of words in a dataset of books.**
 
-Quatre langues sont actuellements supportées :
-  - Français
-  - Anglais
-  - Espagnol
-  - Allemand
+Four languages are curently supported :
+    - French
+    - English
+    - Spanish
+    - German
 
-Il est aussi possible d'utiliser ce correcteur avec les sources et l'alphabet de son choix et ainsi l'utiliser pour d'autre langue.
+It's also possible to use the corrector with custom sources and alphabets for other languages.
 
-Données utilisées
+Data used
 ---
 
 - fr :
@@ -25,8 +25,8 @@ Données utilisées
 - de :
   * KANT Immanuel, *Kritik der reinen Vernunft* - [link](http://www.gutenberg.org/cache/epub/6342/pg6342.txt)
   * NIETZSCHE Friedrich, *Ecce homo, Wie man wird, was man ist* - [link](http://www.gutenberg.org/cache/epub/7202/pg7202.txt)
-  
-Exemple d'utilisation
+
+Examples of use
 ---
 
 ```python
@@ -39,7 +39,7 @@ c.correct('bnojou')
 >> bonjour
 ```
 
-Référence
+References
 ---
 
-Correcteur orthographique basé sur celui de [Peter Norvig](http://norvig.com/)
+Spelling corrector based on that of [Peter Norvig](http://norvig.com/)
