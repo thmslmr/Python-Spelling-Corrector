@@ -1,6 +1,6 @@
 # Python-Spelling-Corrector
 
-Correcteur orthographique basé sur [celui de Peter Norvig](http://norvig.com/spell-correct.html)
+Correcteur orthographique basé sur celui de [Peter Norvig](http://norvig.com/)
 
 Présentation
 ------------
