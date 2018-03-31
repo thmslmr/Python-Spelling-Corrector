@@ -26,7 +26,7 @@ Données utilisées
   * KANT Immanuel, *Kritik der reinen Vernunft* - [link](http://www.gutenberg.org/cache/epub/6342/pg6342.txt)
   * NIETZSCHE Friedrich, *Ecce homo, Wie man wird, was man ist* - [link](http://www.gutenberg.org/cache/epub/7202/pg7202.txt)
   
-Example d'utilisation
+Exemple d'utilisation
 ---
 
 ```python
