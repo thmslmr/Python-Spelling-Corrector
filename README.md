@@ -1,4 +1,4 @@
-# Python-Spelling-Corrector
+# Spelling Corrector
 
 **Correcteur orthographique utilisant la fréquence d'utilisation des mots dans un dataset de livres.**
 
