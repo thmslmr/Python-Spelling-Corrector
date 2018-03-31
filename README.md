@@ -30,13 +30,15 @@ Examples of use
 ---
 
 ```python
+# French correction
 c = Corrector()
-
 c.correct('orthografe')
 >> orthographe
 
-c.correct('bnojou')
->> bonjour
+# English correction
+c = Corrector(lang='en')
+c.correct('mroinng')
+>> morning
 ```
 
 References
