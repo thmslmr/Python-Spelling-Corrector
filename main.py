@@ -11,8 +11,8 @@ class Corrector:
                  sources=None,
                  letters=None):
         """ Init corrector """
-        (self.sources, self.letters) = self.fetch_settings(lang, ['sources',
-                                                                  'letters'])
+        (self.sources) = (sources) or self.fetch_settings(lang, 'sources')
+        (self.letters) = (letters) or self.fetch_settings(lang, 'letters')
         self.words = self.get_words()
 
     def fetch_settings(self, lang, keys):
@@ -20,13 +20,16 @@ class Corrector:
         if not lang:
             raise Exception('Language must be provided.')
         if not keys:
-            raise Exception('Array of settings must be provided.')
+            raise Exception('Name of settings must be provided.')
 
         try:
             with open('settings.json', 'r') as file:
                 all_settings = json.load(file)
         except FileNotFoundError:
             raise Exception('Sources file must be provided.')
+
+        if type(keys) is not list:
+            keys = [keys]
 
         try:
             settings = (all_settings[lang][key] for key in keys)
