@@ -3,10 +3,10 @@
 **Spelling Corrector using the frequence of use of words in a dataset of books.**
 
 Four languages are curently supported :
-    - French
-    - English
-    - Spanish
-    - German
+  - French (default)
+  - English
+  - Spanish
+  - German
 
 It's also possible to use the corrector with custom sources and alphabets for other languages.
 
