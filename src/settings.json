@@ -1,62 +1,29 @@
 {
     "fr" : {
         "sources" : [
-            {
-                "author" : "Voltaire",
-                "title" : "Candide",
-                "url" : "http://www.gutenberg.org/cache/epub/19942/pg19942.txt"
-            },
-            {
-                "author" : "Victor Hugo",
-                "title" : "Notre-Dame de Paris",
-                "url" : "http://www.gutenberg.org/cache/epub/19657/pg19657.txt"
-            }
+                "http://www.gutenberg.org/cache/epub/19942/pg19942.txt",
+                "http://www.gutenberg.org/cache/epub/19657/pg19657.txt"
         ],
         "letters" : "abcdefghijklmnopqrstuvwxyz"
     },
     "en" : {
         "sources" : [
-            {
-                "author" : "William Shakespeare",
-                "title" : "All's Well That Ends Well",
-                "url" : "http://www.gutenberg.org/cache/epub/2246/pg2246.txt"
-            },
-            {
-                "author" : "William Shakespeare",
-                "title" : "Hamlet",
-                "url" : "http://www.gutenberg.org/cache/epub/2265/pg2265.txt"
-            }
+                 "http://www.gutenberg.org/cache/epub/2246/pg2246.txt",
+                 "http://www.gutenberg.org/cache/epub/2265/pg2265.txt"
         ],
         "letters" : "abcdefghijklmnopqrstuvwxyz"
     },
     "es" : {
         "sources" : [
-            {
-                "author" : "Miguel de Cervantes",
-                "title" : "Don Quijote",
-                "url" : "http://www.gutenberg.org/cache/epub/2000/pg2000.txt"
-            },
-            {
-                "author" : "Pío Baroja",
-                "title" : "Los Contrastes de la Vida",
-                "url" : "http://www.gutenberg.org/cache/epub/51858/pg51858.txt"
-            }
-
+                 "http://www.gutenberg.org/cache/epub/2000/pg2000.txt",
+                 "http://www.gutenberg.org/cache/epub/51858/pg51858.txt"
         ],
         "letters" : "abcdefghijklmnñopqrstuvwxyz"
     },
     "de" : {
         "sources" : [
-            {
-                "author" : "Immanuel Kant",
-                "title" : "Kritik der reinen Vernunft",
-                "url" : "http://www.gutenberg.org/cache/epub/6342/pg6342.txt"
-            },
-            {
-                "author" : "Friedrich Wilhelm Nietzsche",
-                "title" : "Ecce homo, Wie man wird, was man ist",
-                "url" : "http://www.gutenberg.org/cache/epub/7202/pg7202.txt"
-            }
+                 "http://www.gutenberg.org/cache/epub/6342/pg6342.txt",
+                 "http://www.gutenberg.org/cache/epub/7202/pg7202.txt"
         ],
         "letters" : "abcdefghijklmnopqrstuvwxyz"
     }

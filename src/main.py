@@ -40,7 +40,7 @@ class Corrector:
 
     def get_text(self, urls=None):
         """ Fetch text from sources """
-        urls = urls or [source['url'] for source in self.sources]
+        urls = urls or [url for url in self.sources]
 
         if not urls:
             raise Exception('List of URLs must be provided.')
