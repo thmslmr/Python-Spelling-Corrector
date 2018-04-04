@@ -2,7 +2,7 @@
 
 **Spelling Corrector using the frequence of use of words in a dataset of books.**
 
-Four languages are curently supported :
+Four languages are currently supported:
   - French (default)
   - English
   - Spanish
